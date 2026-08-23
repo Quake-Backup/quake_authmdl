@@ -223,6 +223,7 @@ Revision #28 (XXX XX, 202X)
 > Added:
      [ID1] Health packs: Added alternate versions with green cross (b_bh10, b_bh25, b_bh100)
 > Updated:
+     [ID1] Exploding boxes: Skin fixes (b_exbox2)
      [ID1] Health packs: Skin/animation fixes (b_bh10, b_bh25) 
      [ID1] Ammo boxes: Reshape for shells/nails (b_shell0, b_shell1, b_nail0, b_nail1);
                        optimized brushes and skin edits for batteries (b_batt0, b_batt1)
