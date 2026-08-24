@@ -224,7 +224,8 @@ Revision #28 (XXX XX, 202X)
      [ID1] Health packs: Added alternate versions with green cross (b_bh10, b_bh25, b_bh100)
 > Updated:
      [ID1] Exploding boxes: Skin fixes (b_exbox2)
-     [ID1] Health packs: Skin/animation fixes (b_bh10, b_bh25) 
+     [ID1] Health packs: Skin/animation fixes (b_bh10, b_bh25)
+     [HIP] Items: Removed needless frames for Horn of Conjuring (horn)
      [ID1] [HIP] [ROG] Weapons: Removed needless frames for (Multi) Grenade Launcher and Prox Gun (v_rock, v_prox, v_multi)
      [ID1] [ROG] [MG3] Weapons: Muzzleflash skin fixes for (Bloody) Shotgun and (Multi) Rocket Launcher 
                                 (v_shot, v_bloodshot, v_rock2, v_multi2)
