@@ -225,9 +225,11 @@ Revision #28 (XXX XX, 202X)
 > Updated:
      [ID1] Exploding boxes: Skin fixes (b_exbox2)
      [ID1] Health packs: Skin/animation fixes (b_bh10, b_bh25) 
-     [ID1] Ammo boxes: Reshape for shells/nails (b_shell0, b_shell1, b_nail0, b_nail1);
-                       optimized brushes and skin edits for batteries (b_batt0, b_batt1)
-     [ROG] Ammo boxes: Reshape for lava nails (b_lnail0, b_lnail1)
+     [ID1] [HIP] [ROG] Weapons: Removed needless frames for (Multi) Grenade Launcher and Prox Gun (v_rock, v_prox, v_multi)
+     [ID1] [ROG] [MG3] Weapons: Muzzleflash skin fixes for (Bloody) Shotgun and (Multi) Rocket Launcher 
+                                (v_shot, v_bloodshot, v_rock2, v_multi2)
+     [ID1] [ROG] Ammo boxes: Reshape for shells/nails/lava nails (b_shell0, b_shell1, b_nail0, b_nail1, b_lnail0, b_lnail);
+                             optimized brushes and skin edits for batteries (b_batt0, b_batt1)
 
 Revision #27 Final (Aug 20, 2026)
 ---------------------------------
