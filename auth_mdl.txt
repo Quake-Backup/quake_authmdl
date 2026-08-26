@@ -39,7 +39,7 @@ Weapons:
    - Shotgun .................................................... v_shot.mdl
    - Bloody Shotgun (MG3) ....................................... v_bloodshot.mdl
    - Super Shotgun .............................................. g_shot.mdl, v_shot2.mdl
-   - Bloody Super Shotgun (MG3) ................................. g_bloodshot2.mdl, v_bloodshot2.mdl
+   - Bloody Super Shotgun (MG3) ................................. (g/v)_bloodshot2.mdl
    - Nailgun .................................................... (g/v)_nail.mdl
    - Perforator ................................................. (g/v)_nail2.mdl
    - Lava Nailgun + Perforator (ROG) ............................ v_lava(2).mdl
@@ -89,22 +89,22 @@ Props/projectiles:
    - Zombie gibs ................................................ zom_gib.mdl
 
 
-II. ALTERNATE MODELS (rename first before usage):
+II. ALTERNATE MODELS (in "alternate" subdirs; rename first before usage):
 
 [ID1]
-   - Shotgun with recoil animation .............................. v_shot_alt.mdl (for: v_shot.mdl)
-   - Small rocket ammo box with large rocket .................... b_rock0_alt.bsp (for: b_rock0.bsp)
-   - Large rocket ammo box with small rockets ................... b_rock1_alt.bsp (for: b_rock1.bsp)
+   - Shotgun with recoil animation .............................. v_shot.mdl
+   - Small rocket ammo box with large rocket .................... b_rock0.bsp
+   - Large rocket ammo box with small rockets ................... b_rock1.bsp
 
 [HIP]
-   - Proximity Gun with GL-like skin ............................ v_prox_alt.mdl (for: v_prox.mdl)
+   - Proximity Gun with GL-like skin ............................ v_prox.mdl
 
 [ROG]
-   - Small multi-rocket ammo box with large rocket .............. b_mrock0_alt.bsp (for: b_mrock0.bsp)
-   - Large multi-rocket box with small rockets .................. b_mrock1_alt.bsp (for: b_mrock1.bsp)  
+   - Small multi-rocket ammo box with large rocket .............. b_mrock0.bsp
+   - Large multi-rocket box with small rockets .................. b_mrock1.bsp 
 
 [MG3]
-   - Bloody Shotgun with recoil animation ....................... v_bloodshot_alt.mdl (for: v_bloodshot.mdl)
+   - Bloody Shotgun with recoil animation ....................... v_bloodshot.mdl
 
 
 ----------------------------------------------------------------------------------------------------------------------
@@ -166,7 +166,7 @@ Renier "Skiffy" Banninga ............. Shambler
 Seven ................................ Knight Statue skin (for Lunaran's model)
                                        Original fixes for nail positioning and MP2 issues
 				       Muzzleflash for Grenade Launcher
-Simon "Sock" O'Callaghan ............. "RetroJam1"/"Arcane Dimensions" models
+Simon "Sock" O'Callaghan ............. "Retro Jam 2"/"Arcane Dimensions" models
                                        Quake runes with fixed UV mapping
 talisa ............................... Dwere's reworked classic weapons skins for HIP/ROG
 Tea Monster .......................... Shub-Niggurath, Anti-Grav Belt, Biosuit, Empathy Shield, 
@@ -226,6 +226,8 @@ Revision #28 (XXX XX, 202X)
 > Updated:
      [ID1] Exploding boxes: Skin fixes (b_exbox2)
      [ID1] Health packs: Skin/animation fixes (b_bh10, b_bh25)
+     [ID1] Projectiles: Rocket (missile) from Quake Remaster, with skin/triangle fixes
+     [ID1] Items: Backpack (backpack) from Quake Remaster
      [HIP] Items: Removed needless frames for Horn of Conjuring (horn)
      [MG3] Monsters: Removed fullbright pixels on Blood Shambler (shambler_blood) skin
      [MG3] Weapons: Removed fullbright pixels on Bloody Super Shotgun (g_bloodshot2, v_bloodshot2) skin
@@ -485,7 +487,7 @@ Revision #5 (Mar 2, 2016)
 -------------------------
 > Added: 
      [ID1] Ammo/health boxes by ijed (from "Rubicon Rumble Pack", with corrected lighting/alignments)
-     [ID1] Items/flames/projectiles/zombie gibs by sock (from "RetroJam1" and "Arcane Dimensions")
+     [ID1] Items/flames/projectiles/zombie gibs by sock (from "Retro Jam 2" and "Arcane Dimensions")
      [ROG] Lava nail/multi-rocket boxes by NightFright (based on nail/rocket ammo models by ijed) 
  
 Revision #4 (Feb 16, 2016)
