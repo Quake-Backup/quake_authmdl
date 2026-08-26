@@ -17,12 +17,14 @@ I. MODELS:
 (N)PCs:
    - Chthon ..................................................... boss.mdl
    - Death Knight (ID1) / Minotaur Statue (ROG) ................. hknight.mdl, h_hellkn.mdl
+   - Ranged Death Knight (MG3) .................................. rknight.mdl
    - Enforcer ................................................... enforcer.mdl, h_mega.mdl
    - Fiend ...................................................... demon.mdl, h_demon.mdl
    - Grunt ...................................................... soldier.mdl, h_guard.mdl
    - Knight (ID1) / Knight Statue (ROG) ......................... knight.mdl, h_knight.mdl
    - Mummy (ROG) ................................................ mummy.mdl
    - Ogre (ID1) / Multi-Grenade Ogre (ROG) ...................... ogre.mdl, h_ogre.mdl
+   - Rocket Ogre (MG3) .......................................... ogre_rocket.mdl
    - Ranger (ID1) / Ranger w/ CTF skin (ROG) .................... player.mdl, h_player.mdl
    - Rotfish .................................................... fish.mdl
    - Rottweiler ................................................. dog.mdl, h_dog.mdl
@@ -36,7 +38,7 @@ I. MODELS:
 
 Weapons:
    - Axe ........................................................ v_axe.mdl
-   - Super Axe (MG3) ............................................ v_hammer.mdl, v_hammer_glow.mdl
+   - Super Axe (MG3) ............................................ (g/v_)hammer.mdl, v_hammer_glow.mdl
    - Shotgun .................................................... v_shot.mdl
    - Bloody Shotgun (MG3) ....................................... v_bloodshot.mdl
    - Super Shotgun .............................................. g_shot.mdl, v_shot2.mdl
@@ -57,6 +59,7 @@ Items:
                                                                   b_rock(0/1).bsp, b_shell(0/1).bsp
    - Anti-Grav Belt (ROG) ....................................... beltup.mdl
    - Armor ...................................................... armor.mdl
+   - Armor Shard (MG3) .......................................... armorshard.mdl
    - Backpack ................................................... backpack.mdl
    - Biosuit .................................................... suit.mdl
    - Empathy Shield (HIP) ....................................... empathy.mdl
@@ -75,6 +78,7 @@ Items:
    - Death Knight's Head (MG3) .................................. item_h_hellkn.mdl
 
 Props/projectiles:
+   - Bloody Angel Statue (MG3) .................................. angel_statue_blood.mdl
    - Exploding boxes ............................................ b_explop.bsp, b_exbox2.bsp
    - Eyes ....................................................... eyes.mdl
    - Fireball (ROG) ............................................. fireball.mdl
@@ -145,7 +149,7 @@ Machine Games/Nightdive Studios ...... Chthon, Death Knight, Enforcer, Fiend, Og
                                        Scrag, Vore, Zombie
 NightFright .......................... ROG plasma cells, health/ammo box edits/realignments (ijed),
                                        skin edits for backback (Sock), Lava Perforator (Dwere/osj)
-                                       and Mjolnir, MG3 model edits              
+                                       and Mjolnir, MG3 model/skin edits              
 osjclatchford ........................ Eyes, Ring of Shadows, Lava ball/rock
                                        MD5 model conversions from QuakeEX
 				       Headgibs (Death Knight, Enforcer, Ogre, Vore, Zombie)
@@ -224,16 +228,16 @@ Revision #28 (XXX XX, 202X)
 ---------------------------
 > Added:
      [ID1] Health packs: Added alternate versions with green cross (b_bh10, b_bh25, b_bh100)
-     [MG3] Monsters: Removed fullbright pixels on skin of Blood Shambler (shambler_blood)
-     [MG3] Weapons: Removed fullbright pixels on skins of Super Axe (v_hammer, v_hammer_glow)
+     [MG3] Removed fullbright pixels on skins of various models:
+           Armor Shard (armorshard), Bloody Angel Statue (angel_statue_blood), Blood Shambler (shambler_blood), 
+           Ranged Death Knight (rknight), Rocket Ogre (ogre_rocket), Super Axe (g_hammer, v_hammer, v_hammer_glow)
 > Updated:
      [ID1] Exploding boxes: Skin fixes (b_exbox2)
      [ID1] Health packs: Skin/animation fixes (b_bh10, b_bh25)
      [ID1] Projectiles: Rocket (missile) from Quake Remaster, with skin/triangle fixes
      [ID1] Items: Backpack (backpack) from Quake Remaster
      [HIP] Items: Removed needless frames for Horn of Conjuring (horn)
-     [MG3] Weapons: Removed fullbright pixels on skins of Bloody Super Shotgun (v_bloodshot2); 
-                    darker blood for Bloody Super Shotgun (g_bloodshot2, v_bloodshot2)
+     [MG3] Weapons: Removed fullbright pixels on skins of Bloody Super Shotgun (v_bloodshot2) + darker blood (incl. g_bloodshot2)
      [ID1] [HIP] [ROG] Weapons: Removed needless frames of (Multi) Grenade Launcher and Prox Gun (v_rock, v_prox, v_multi)
      [ID1] [ROG] [MG3] Weapons: Muzzleflash skin fixes of (Bloody) Shotgun and (Multi) Rocket Launcher 
                                 (v_shot, v_bloodshot, v_rock2, v_multi2)
