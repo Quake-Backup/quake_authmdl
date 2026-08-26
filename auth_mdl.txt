@@ -36,6 +36,7 @@ I. MODELS:
 
 Weapons:
    - Axe ........................................................ v_axe.mdl
+   - Super Axe (MG3) ............................................ v_hammer.mdl, v_hammer_glow.mdl
    - Shotgun .................................................... v_shot.mdl
    - Bloody Shotgun (MG3) ....................................... v_bloodshot.mdl
    - Super Shotgun .............................................. g_shot.mdl, v_shot2.mdl
@@ -223,17 +224,18 @@ Revision #28 (XXX XX, 202X)
 ---------------------------
 > Added:
      [ID1] Health packs: Added alternate versions with green cross (b_bh10, b_bh25, b_bh100)
+     [MG3] Monsters: Removed fullbright pixels on skin of Blood Shambler (shambler_blood)
+     [MG3] Weapons: Removed fullbright pixels on skins of Super Axe (v_hammer, v_hammer_glow)
 > Updated:
      [ID1] Exploding boxes: Skin fixes (b_exbox2)
      [ID1] Health packs: Skin/animation fixes (b_bh10, b_bh25)
      [ID1] Projectiles: Rocket (missile) from Quake Remaster, with skin/triangle fixes
      [ID1] Items: Backpack (backpack) from Quake Remaster
      [HIP] Items: Removed needless frames for Horn of Conjuring (horn)
-     [MG3] Monsters: Removed fullbright pixels on Blood Shambler (shambler_blood) skin
-     [MG3] Weapons: Removed fullbright pixels on Bloody Super Shotgun (g_bloodshot2, v_bloodshot2) skin
-                    and made blood color darker
-     [ID1] [HIP] [ROG] Weapons: Removed needless frames for (Multi) Grenade Launcher and Prox Gun (v_rock, v_prox, v_multi)
-     [ID1] [ROG] [MG3] Weapons: Muzzleflash skin fixes for (Bloody) Shotgun and (Multi) Rocket Launcher 
+     [MG3] Weapons: Removed fullbright pixels on skins of Bloody Super Shotgun (v_bloodshot2); 
+                    darker blood for Bloody Super Shotgun (g_bloodshot2, v_bloodshot2)
+     [ID1] [HIP] [ROG] Weapons: Removed needless frames of (Multi) Grenade Launcher and Prox Gun (v_rock, v_prox, v_multi)
+     [ID1] [ROG] [MG3] Weapons: Muzzleflash skin fixes of (Bloody) Shotgun and (Multi) Rocket Launcher 
                                 (v_shot, v_bloodshot, v_rock2, v_multi2)
      [ID1] [ROG] Ammo boxes: Reshape for shells/nails/lava nails (b_shell0, b_shell1, b_nail0, b_nail1, b_lnail0, b_lnail);
                              optimized brushes and skin edits for batteries (b_batt0, b_batt1)
